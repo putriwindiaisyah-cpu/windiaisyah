@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindiStore</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <h1 class="logo">WindiStore</h1>
+        
+        <nav class="menu-windistore">
+            <a href="index.html" class="menu-item">
+                <span>⌂</span> Beranda
+            </a>
+
+            <a href="#produk" class="menu-item">
+                <span>♡</span> Koleksi
+            </a>
+
+            <a href="tentang.html" class="menu-item">
+                <span>✿</span> Tentang
+            </a>
+
+            <a href="kontak.html" class="menu-item">
+                <span>✉</span> Kontak
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="hero-bg-circle circle-one"></div>
+    <div class="hero-bg-circle circle-two"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+            <span class="hero-label">
+                ✨ SELAMAT DATANG DI WINDISTORE
+            </span>
+
+            <h2>
+                Tampil Cantik,<br>
+                <span>Lebih Percaya Diri!</span>
+            </h2>
+
+            <p>
+                Temukan berbagai pilihan fashion wanita
+                yang cantik, menarik, dan kekinian.
+                Tampil istimewa dengan gaya favoritmu
+                tanpa harus mengeluarkan banyak biaya.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#produk" class="hero-btn">
+                    Belanja Sekarang
+                    <span>→</span>
+                </a>
+
+                <a href="tentang.html" class="hero-link">
+                    Tentang Kami
+                </a>
+            </div>
+
+            <div class="hero-info">
+                <div>
+                    <strong>8+</strong>
+                    <small>Pilihan Produk</small>
+                </div>
+
+                <div>
+                    <strong>Terbaik</strong>
+                    <small>Koleksi Fashion</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-image-bg"></div>
+
+            <div class="hero-decoration deco-one">✿</div>
+            <div class="hero-decoration deco-two">♡</div>
+            <div class="hero-decoration deco-three">✦</div>
+
+            <div class="hero-image">
+                <img src="images/produk5.jpg"
+                     alt="Koleksi Tas WindiStore">
+            </div>
+
+            <div class="floating-card">
+                <span>♡</span>
+                <div>
+                    <strong>Koleksi Pilihan</strong>
+                    <small>Cantik untuk setiap hari!</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="produk" class="produk">
+    <div class="container">
+        <h2>Produk Terbaru</h2>
+
+        <div class="product-grid">
+
+            <!-- PRODUK 1 -->
+            <article class="card">
+                <img src="images/produk1.jpg" alt="Heels Butterfly Pink">
+                <div class="card-content">
+                    <span class="kategori">Heels</span>
+                    <h3>Heels Butterfly Pink</h3>
+                    <p>Heels pink dengan detail kupu-kupu yang feminin.</p>
+                    <strong>Rp220.000</strong>
+                    <button onclick="beliSekarang('Heels Butterfly Pink', 220000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Heels Butterfly Pink', 220000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 2 -->
+            <article class="card">
+                <img src="images/produk2.jpg" alt="Sandal Butterfly">
+                <div class="card-content">
+                    <span class="kategori">Sandal</span>
+                    <h3>Sandal Butterfly</h3>
+                    <p>Sandal platform dengan hiasan kupu-kupu dan bunga.</p>
+                    <strong>Rp190.000</strong>
+                    <button onclick="beliSekarang('Sandal Butterfly', 190000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Sandal Butterfly', 190000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 3 -->
+            <article class="card">
+                <img src="images/produk3.jpg" alt="Blouse Gingham">
+                <div class="card-content">
+                    <span class="kategori">Blouse</span>
+                    <h3>Blouse Gingham</h3>
+                    <p>Blouse motif kotak dengan kerah renda yang manis dan elegan.</p>
+                    <strong>Rp125.000</strong>
+                    <button onclick="beliSekarang('Blouse Gingham', 125000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Blouse Gingham', 125000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 4 -->
+            <article class="card">
+                <img src="images/produk4.jpg" alt="Hijab Floral Pink">
+                <div class="card-content">
+                    <span class="kategori">Hijab</span>
+                    <h3>Hijab Floral Pink</h3>
+                    <p>Hijab motif bunga dengan warna pink pastel yang cantik.</p>
+                    <strong>Rp75.000</strong>
+                    <button onclick="beliSekarang('Hijab Floral Pink', 75000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Hijab Floral Pink', 75000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 5 -->
+            <article class="card">
+                <img src="images/produk5.jpg" alt="Atasan Cape Cokelat">
+                <div class="card-content">
+                    <span class="kategori">Atasan</span>
+                    <h3>Atasan Cape Cokelat</h3>
+                    <p>Atasan warna cokelat dengan model cape yang anggun.</p>
+                    <strong>Rp145.000</strong>
+                    <button onclick="beliSekarang('Atasan Cape Cokelat', 145000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Atasan Cape Cokelat', 145000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 6 -->
+            <article class="card">
+                <img src="images/produk6.jpg" alt="Handbag Cream">
+                <div class="card-content">
+                    <span class="kategori">Tas</span>
+                    <h3>Handbag Cream</h3>
+                    <p>Tas warna cream dengan aksen rantai dan gantungan cherry.</p>
+                    <strong>Rp250.000</strong>
+                    <button onclick="beliSekarang('Handbag Cream', 250000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Handbag Cream', 250000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 7 -->
+            <article class="card">
+                <img src="images/produk7.jpg" alt="Hijab Floral Pastel">
+                <div class="card-content">
+                    <span class="kategori">Hijab</span>
+                    <h3>Hijab Floral Pastel</h3>
+                    <p>Hijab motif floral dengan perpaduan warna pastel yang lembut.</p>
+                    <strong>Rp80.000</strong>
+                    <button onclick="beliSekarang('Hijab Floral Pastel', 80000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Hijab Floral Pastel', 80000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+            <!-- PRODUK 8 -->
+            <article class="card">
+                <img src="images/produk8.jpg" alt="Handbag Pink">
+                <div class="card-content">
+                    <span class="kategori">Tas</span>
+                    <h3>Handbag Pink</h3>
+                    <p>Tas pink dengan pita, mutiara, dan aksesoris cherry.</p>
+                    <strong>Rp275.000</strong>
+                    <button onclick="beliSekarang('Handbag Pink', 275000)">
+                        Beli Sekarang
+                    </button>
+                    <button onclick="tambahKeranjang('Handbag Pink', 275000)">
+                        + Tambah ke Keranjang
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- KERANJANG BELANJA -->
+<section class="keranjang" id="keranjang">
+    <div class="container">
+
+        <div class="judul-keranjang">
+            <span>WINDISTORE</span>
+            <h2>Keranjang Belanja</h2>
+            <p>Periksa kembali produk pilihanmu sebelum memesan.</p>
+        </div>
+
+        <div id="daftarKeranjang">
+            <div class="keranjang-kosong">
+                <span>🛍️</span>
+                <h3>Keranjang Masih Kosong</h3>
+                <p>Yuk, pilih produk favoritmu terlebih dahulu!</p>
+                <a href="#produk">Lihat Produk</a>
+            </div>
+        </div>
+
+        <div class="ringkasan-belanja" id="ringkasanBelanja" style="display:none;">
+
+            <div class="baris-total">
+                <span>Total Belanja</span>
+                <strong id="totalBelanja">Rp0</strong>
+            </div>
+
+            <button class="tombol-checkout" onclick="bukaCheckout()">
+                Lanjutkan Pemesanan →
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- FORMULIR CHECKOUT -->
+<section class="checkout" id="checkout" style="display:none;">
+    <div class="container">
+
+        <div class="judul-keranjang">
+            <span>LANGKAH TERAKHIR</span>
+            <h2>Penyelesaian Pesanan</h2>
+            <p>Lengkapi data diri untuk menyelesaikan pesananmu.</p>
+        </div>
+
+        <form id="formCheckout">
+
+            <div class="form-checkout">
+
+                <h3>Data Pembeli</h3>
+
+                <label>Nama Lengkap</label>
+                <input type="text" id="namaPembeli" placeholder="Masukkan nama lengkap" required>
+
+                <label>Nomor Telepon</label>
+                <input type="tel" id="teleponPembeli" placeholder="Masukkan nomor telepon" required>
+
+                <label>Alamat Pengiriman</label>
+                <textarea id="alamatPembeli" placeholder="Masukkan alamat lengkap" required></textarea>
+
+                <label>Metode Pembayaran</label>
+                <select id="metodePembayaran" required>
+                    <option value="">Pilih metode pembayaran</option>
+                    <option value="Transfer Bank">Transfer Bank</option>
+                    <option value="COD (Bayar di Tempat)">COD (Bayar di Tempat)</option>
+                    <option value="Tunai">Tunai</option>
+                </select>
+
+                <div class="total-checkout">
+                    <span>Total Pembayaran</span>
+                    <strong id="totalCheckout">Rp0</strong>
+                </div>
+
+                <button type="submit" class="tombol-konfirmasi">
+                    Konfirmasi Pesanan
+                </button>
+
+                <button type="button" class="tombol-kembali" onclick="kembaliKeranjang()">
+                    Kembali ke Keranjang
+                </button>
+
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- BUKTI PESANAN -->
+<section class="bukti-pesanan" id="buktiPesanan" style="display:none;">
+    <div class="container">
+
+        <div class="bukti-kartu">
+
+            <div class="ikon-berhasil">✓</div>
+
+            <h2>Pesanan Berhasil Dibuat!</h2>
+
+            <p>Terima kasih sudah berbelanja di WindiStore.</p>
+
+            <div class="nomor-pesanan">
+                Nomor Pesanan:
+                <strong id="nomorPesanan"></strong>
+            </div>
+
+            <div id="detailPesanan"></div>
+
+            <button onclick="window.print()" class="tombol-cetak">
+                Cetak Bukti Pesanan
+            </button>
+
+            <button onclick="selesaiBelanja()" class="tombol-selesai">
+                Kembali ke Beranda
+            </button>
+
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 WindiStore</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
